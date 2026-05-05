@@ -19,6 +19,9 @@ EOF
 *.tlog
 *.tlog.raw
 *.bin
+
+mav.parm
+
 way.txt
 dumpcore*
 dumpstack*
