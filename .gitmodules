@@ -1,0 +1,6 @@
+[submodule "ardupilot_gazebo"]
+	path = ardupilot_gazebo
+	url = ./ardupilot_gazebo
+[submodule "ardupilot"]
+	path = ardupilot
+	url = ./ardupilot
