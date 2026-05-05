@@ -1,14 +1,10 @@
 cat << 'EOF' > .gitignore
-# Ignore external dependencies
-ardupilot/
-ardupilot_gazebo/
 
 # Ignore ROS 2 build artifacts
 ros2_ws/build/
 ros2_ws/install/
 ros2_ws/log/
 ros2_ws/COLCON_IGNORE
-ros2_ws/src/ros_gz/
 
 # Ignore Python caches
 __pycache__/
@@ -17,3 +13,12 @@ __pycache__/
 # Ignore OS files
 .DS_Store
 EOF
+
+
+# SITL and Log garbage
+*.tlog
+*.tlog.raw
+*.bin
+dumpcore*
+logs/
+terrain/
