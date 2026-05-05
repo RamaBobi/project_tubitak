@@ -1,0 +1,26 @@
+# Basic Frame Setup
+FRAME_CLASS 1
+VTAIL_OUTPUT 3      # 3 = Mix both Pitch and Yaw into the V-Tail
+
+# Servo Mapping (Aligning with Gazebo 0-index offset)
+SERVO1_FUNCTION 24   # Aileron (Gazebo Ch 0)
+SERVO1_MIN 1000
+SERVO1_MAX 2000
+
+SERVO2_FUNCTION 79  # V-Tail Left (Gazebo Ch 1)
+SERVO2_MIN 1000
+SERVO2_MAX 2000
+SERVO2_REVERSED 0   # You may need to flip this to 1 depending on Gazebo joint axes
+
+SERVO3_FUNCTION 70  # Throttle (Gazebo Ch 2)
+SERVO3_MIN 1000
+SERVO3_MAX 2000
+
+SERVO4_FUNCTION 80  # V-Tail Right (Gazebo Ch 3)
+SERVO4_MIN 1000
+SERVO4_MAX 2000
+SERVO4_REVERSED 0   # You may need to flip this to 1
+
+SERVO5_FUNCTION 25   # Aileron (Gazebo Ch 4 - Right Aileron)
+SERVO5_MIN 1000
+SERVO5_MAX 2000
