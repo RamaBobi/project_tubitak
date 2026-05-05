@@ -20,5 +20,6 @@ EOF
 *.tlog.raw
 *.bin
 dumpcore*
+dumpstack*
 logs/
 terrain/
