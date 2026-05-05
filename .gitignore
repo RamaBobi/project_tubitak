@@ -19,6 +19,7 @@ EOF
 *.tlog
 *.tlog.raw
 *.bin
+way.txt
 dumpcore*
 dumpstack*
 logs/
